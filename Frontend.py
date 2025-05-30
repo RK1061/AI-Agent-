@@ -20,6 +20,7 @@ allow_web_search=st.checkbox("Allow Web Search")
 user_query=st.text_area("Enter your query: ", height=150, placeholder="Ask Anything!")
 
 API_URL="http://127.0.0.1:9999/chat"
+# 2. Connect with backend via URL
 if st.button("Ask Agent!"):
     if user_query.strip():
         import requests
@@ -38,4 +39,4 @@ if st.button("Ask Agent!"):
             else:
                 st.subheader("Agent Response")
                 st.markdown(f"**Final Response:** {response_data}")
-# 2. Connect with backend via URL
+
