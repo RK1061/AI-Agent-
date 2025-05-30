@@ -121,3 +121,6 @@ python frontend.py
 **IMPORTANT**
 
 **Make sure backend python script is running in a separate terminal**
+
+![Untitled Diagram drawio (7)](https://github.com/user-attachments/assets/894420ee-7b9c-425b-a2e7-d82c5609d175)
+
